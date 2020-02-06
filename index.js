@@ -13,3 +13,12 @@ function summonCaptainPlanet(planeteerCalls) {
   }
   return array;
 }
+
+function longPlaneteerCalls(calls) {
+  for (var i = 0; i < calls.length; i++) {
+    if (calls[i].length > 4) {
+      return true;
+    }
+  }
+  return false;
+}
