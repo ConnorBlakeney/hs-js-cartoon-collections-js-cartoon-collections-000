@@ -24,11 +24,15 @@ function longPlaneteerCalls(calls) {
 }
 
 function findTheCheese(foods) {
-  var cheeses = ["cheddar", "gouda", "camembert"];
+  var cheeses = ["cheddar", "gouda", "camembert", "swiss"];
   for (var i = 0; i < foods.length; i++) {
-    if ((foods[i] === cheeses[0]) || (foods[i] === cheeses [1]) || (foods[i] === cheeses[2])) {
+    if ((foods[i] === cheeses[0]) || (foods[i] === cheeses [1]) || (foods[i] === cheeses[2]) || (foods[i] === cheeses[3])) {
       return foods[i];
     }
   }
   return "no cheese!";
 }
+
+
+
+
