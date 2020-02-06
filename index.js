@@ -5,3 +5,11 @@ function dwarfRollCall(dwarves) {
   }
   return array.join("");
 }
+
+function summonCaptainPlanet(planeteerCalls) {
+  var array = [];
+  for (var i = 0; i < planeteerCalls.length; i++) {
+    array.push(planeteerCalls[i].toUpperCase() + "!");
+  }
+  return array;
+}
