@@ -41,10 +41,12 @@ function wordsWithB(words) {
   // return new array that contains all words with first array that start with letter B
   // words = [""garlic", "rosemary", "bread""]
   for (var i = 0; i < words.length; i++) {
-    if (words[0] === "B") {
-      array.push(words)
+    if (words[i][0] === "B") {
+      array.push(words[i]);
     }
   }
+  return array;
 }
+
 
 
