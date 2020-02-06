@@ -33,12 +33,18 @@ function findTheCheese(foods) {
   }
   return "no cheese!";
 }
-
-function wordsWithB() {
+//word = "one"
+//word[0] === "o"
+function wordsWithB(words) {
   // take in array with words
   var array = [];
   // return new array that contains all words with first array that start with letter B
-  // [""]
+  // words = [""garlic", "rosemary", "bread""]
+  for (var i = 0; i < words.length; i++) {
+    if (words[0] === "B") {
+      array.push(words)
+    }
+  }
 }
 
 
